@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEFLOW-PORTAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JOIN THE CINEFLOW-PORTAL</h1>
+        <p>Where all your requirements are gathered and featured</p>
+    </header>
+    <main>
+        <section>
+            <h2>WELCOME Y'ALL</h2>
+             <video width="50%" controls poster="assets/videos/welcomephoto.jpg">
+                <source src="assets/videos/welcome.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section>
+                <div class="form-group">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" required placeholder="Enter your full name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required placeholder="Enter the date"><br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter username" pattern="[A-Za-z0-9]+" required>
+                </div>
+             <div class="form-group">
+                <label for="referral">How did you hear about us</label>
+                <select id="referral" name="referral">
+                    <option value="disabled selected">Select an option</option>
+                    <option value="social media">Social media</option>
+                            <option value="friend">Friend</option>
+                            <option value="search">Search Engine</option>
+                            <option value="other">other</option>
+                            </select>
+                         </div>
+                         <div class="hobbies">
+                          <label for="Hobbies">Select your Hobbies</label><br>
+                            <input type="checkbox" id="hobby1" name="hobby1" value="singing">
+                            <label for="singing">singing</label><br>
+                            <input type="checkbox" id="hobby2" name="hobby2" value="swimming">
+                            <label for="swimming">swimming</label><br>
+                            <input type="checkbox" id="hobby3" name="hobby3" value="cooking">
+                            <label for="dancing">dancing</label>
+                         </div>
+
+                         <!-- Content Genres -->
+                         <p>Select Content Genres:</p>
+                        
+                         <input type="checkbox" id="tech" name="genre" value="Tech" required>
+                         <label for="tech">Tech</label>
+                     
+                         <input type="checkbox" id="gaming" name="genre" value="Gaming">
+                         <label for="gaming">Gaming</label>
+                     
+                         <input type="checkbox" id="lifestyle" name="genre" value="Lifestyle">
+                         <label for="lifestyle">Lifestyle</label>
+                        
+                            <!-- Weekly Upload Volume -->
+                            <label for="uploads">Expected Weekly Upload Volume:</label>
+                            <input 
+                                type="range" 
+                                id="uploads" 
+                                name="uploads"
+                                min="0" 
+                                max="10">
+                        
+                            <br><br>
+                        
+                            <!-- Profile Picture -->
+                            <label for="profile">Profile Picture:</label>
+                            <input 
+                                type="file" 
+                                id="profile" 
+                                name="profile"
+                                accept=".jpg,.png"
+                                required>
+                        
+                            <br><br>
+
+                        <div class="Form-group">
+                        <label for="comments">Feedback:</label>
+                        <textarea id="comments"
+                        name="comments" rows="5" cols="50"
+                        placeholder="We Value Your Feedback....."></textarea>
+                     </div>
+                     </form>
+                     <fieldset>
+                       <legend>SUBMIT FORM</legend>
+                       <button type="submit">Register Account</button>
+
+                       <button type="reset">Clear Form</button>
+                     </fieldset>
+                    </section>
+                </main>
+                <footer>
+                    <div class="social-links">
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>&copy; 2026 All rights reserved.</p>
+                </footer>
+        </section>
+    </main>
+</body>
+</html>
