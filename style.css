@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+video{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.form-group,
+.hobbies,
+.Form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="range"]{
+    width: 100%;
+}
+
+fieldset{
+    border: 2px solid #111827;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend{
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #111827;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: #2563eb;
+}
+
+footer{
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links{
+    margin-bottom: 10px;
+}
+
+.social-links a{
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-links a:hover{
+    color: #2563eb;
+}
